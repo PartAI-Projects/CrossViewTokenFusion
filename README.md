@@ -1,8 +1,11 @@
 # Token-Based Dual-view Fusion and Adaptation of Large Vision Models for Breast Cancer Classification
+[![arXiv](https://img.shields.io/badge/arXiv-2607.06309-b31b1b.svg)](https://arxiv.org/abs/2607.06309)      
+This repository contains the official implementation of our proposed two-stage framework for dual-view mammography classification based on MedSigLIP vision model.
 
 
-This repository contains the official implementation of our proposed two-stage framework for dual-view mammography classification based on MedSigLIP.
-
+<p align="center">
+  <img width="940" alt="Overview of the proposed framework" src="https://github.com/user-attachments/assets/eb009277-2358-4b7b-8245-bc46cee57714" />
+</p>
 
 
 ## Dataset
