@@ -4,7 +4,7 @@ This repository contains the official implementation of our proposed two-stage f
 
 
 <p align="center">
-  <img width="940" alt="Overview of the proposed framework" src="https://github.com/user-attachments/assets/eb009277-2358-4b7b-8245-bc46cee57714" />
+  <img width="940" alt="Overview of the proposed framework" src="https://github.com/user-attachments/assets/f2ab388b-129b-413f-acf7-5f31520a67e3" />
 </p>
 
 
