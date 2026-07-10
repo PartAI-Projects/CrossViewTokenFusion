@@ -55,13 +55,10 @@ python run.py --mode test --stage 2 --checkpoint PATH_TO_CKPT
 If you find this repository useful in your research, please cite:
 
 ```bibtex
-@misc{pirsoltan2026tokenbaseddualviewfusionadaptation,
-      title={Token-Based Dual-view Fusion and Adaptation of Large Vision Models for Breast Cancer Classification}, 
-      author={Aysan Ghayouri Pirsoltan and Shima Babakordi and Mohammad Reza Mohammadi},
-      year={2026},
-      eprint={2607.06309},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV},
-      url={https://arxiv.org/abs/2607.06309}, 
+@article{pirsoltan2026token,
+  title={Token-Based Dual-view Fusion and Adaptation of Large Vision Models for Breast Cancer Classification},
+  author={Pirsoltan, Aysan Ghayouri and Babakordi, Shima and Mohammadi, Mohammad Reza},
+  journal={arXiv preprint arXiv:2607.06309},
+  year={2026}
 }
 ```
