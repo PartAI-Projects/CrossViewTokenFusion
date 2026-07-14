@@ -50,31 +50,6 @@ python run.py --mode train --stage 2
 python run.py --mode test --stage 2 --checkpoint PATH_TO_CKPT
 ```
 
-## Result
-The reported results are obtained on the VinDr-Mammo binary classification task using the official VinDr-Mammo test set. For the binary classification task, BI-RADS 2 is used as the **suspicious benign** class, while BI-RADS 4 and BI-RADS 5 are grouped as the **suspicious malignant** class.
-  
-| Method          | # Fusion Blocks | F1-Score (%) | AUC-ROC  |
-|:------:|:---------------:|:------------:|:-------:|
-| [DIVF](https://doi.org/10.48550/arXiv.2309.03506)        | –               | 75.98        | 0.7486  |
-| **Proposed Method** | 2               | **77.88**    | **0.8593** |
-
-
-To reproduce the reported results, after preprocessing, update the following settings in `configs/config.py`:
-
-```python
-prompt_depth = 8
-shallow_prompt_length = 2
-fusion_layers = [12, 23]
-
-prompts_path = "stage1_best_prompts_vindr_bin.pt"
-```
-
-Then run inference using the released Stage 2 checkpoint on [Hugging Face](https://huggingface.co/aysangh/medsiglip-fusion-vindr-bin): 
-
-```bash
-python run.py --mode test --stage 2 --checkpoint path/to/stage2.ckpt
-```
-
 ## Citation
 
 If you find this repository useful in your research, please cite:
